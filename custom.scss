@@ -1,0 +1,172 @@
+/*-- scss:defaults --*/
+$primary: #7C004C;
+$body-bg: #FFFFFF;
+$body-color: #000000;
+
+/*-- scss:rules --*/
+
+// ----- Banner -----
+.banner {
+  background: linear-gradient(135deg, $primary 0%, darken($primary, 10%) 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+
+  p {
+    color: #FFC9EA;  
+  }
+}
+
+// ----- Tarjtas -----
+.card {
+  border: 1px solid lighten($primary, 40%);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(124, 0, 76, 0.2);
+}
+
+// ----- Botones -----
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}
+
+// ----- Títulos de sección -----
+.section-title {
+  color: $primary;
+  border-bottom: 3px solid $primary;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+// ----- Speakers -----
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.speaker-card {
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.speaker-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+// ----- Programa -----
+.schedule-day {
+  margin-bottom: 3rem;
+}
+
+.schedule-item {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  border-left: 4px solid $primary;
+  margin-bottom: 1rem;
+  background: #f8f8f8;
+}
+
+.schedule-time {
+  font-weight: bold;
+  color: $primary;
+  min-width: 100px;
+}
+
+// ----- sección resaltada (ej. cta) -----
+.cta-section {
+  background: $primary;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+  margin: 3rem 0;
+  border-radius: 8px;
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: white;
+  }
+}
+
+// ----- Novedades -----
+.news-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  color: $primary;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+// ----- Sponsors -----
+.sponsors-section {
+  margin: 2rem 0;
+}
+
+.sponsor-nivel {
+  margin-bottom: 2.5rem;
+  text-align: center;
+
+  h4 {
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+
+    &::before,
+    &::after {
+      content: " — ";
+      color: lighten($primary, 40%);
+    }
+  }
+}
+
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  img {
+    opacity: 0.75;
+    filter: grayscale(30%);
+    transition: opacity 0.2s, filter 0.2s;
+
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0%);
+    }
+  }
+}

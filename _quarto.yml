@@ -1,0 +1,33 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - registration.qmd
+  output-dir: _site
+
+
+website:
+  title: "RSA26"
+  navbar:
+    background: "#7C004C"
+    foreground: "#FFFFFF"
+    left:
+      - text: "Home"
+        href: index.qmd
+    right:
+      - icon: github
+        href: https://github.com/RSEAA/Research-Software-Africa
+
+
+  page-footer:
+    background: "#7C004C"
+    foreground: "#FFFFFF"
+    center: "Research Software Africa (RSA26)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    page-layout: full

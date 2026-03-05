@@ -1,0 +1,7 @@
+---
+title: "Registration"
+---
+
+::: {style="font-size: 3rem; text-align: center;"}
+🚧 Page in construction
+:::

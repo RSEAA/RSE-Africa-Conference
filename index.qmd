@@ -1,9 +1,21 @@
 ---
-layout: default
-title: RSA26 - A research software community event for Africa
-permalink: /
-navigation_weight: 1
+title: ""
+page-layout: full
 ---
+
+::: {.banner}
+
+# Research Software Africa (RSA26)
+
+### I International Conference of Research Software in Africa
+
+25-28 de August, 2026  
+(Online)
+
+[Registration](registration.qmd){.btn .btn-primary .btn-lg}
+
+:::
+
 # Welcome to Research Software Africa (RSA26)
 
 Do you want to learn what others are doing in research software in your domain and in other domains? Or do you want to discuss with others how you balance researcher needs with good software practices? Or maybe you are the only person working on research software in your group?

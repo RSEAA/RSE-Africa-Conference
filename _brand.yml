@@ -1,0 +1,21 @@
+meta:
+  name: "RS Latinoamérica"
+
+color:
+  palette:
+    primary: "#7C004C"
+    secondary: "#FFFFFF"
+    background: "#FFFFFF"
+    foreground: "#000000"
+    
+typography:
+  base:
+    family: "sans-serif"
+  headings:
+    family: "sans-serif"
+    color: "#7C004C"
+    
+logo:
+  small: "assets/logo.png"
+  medium: "assets/logo.png"
+  large: "assets/logo.png"
