@@ -16,11 +16,11 @@ page-layout: full
 
 :::
 
-# Welcome to Research Software Africa (RSA26)
+# Welcome to Research Software Africa (RSAfrica26)
 
 Do you want to learn what others are doing in research software in your domain and in other domains? Or do you want to discuss with others how you balance researcher needs with good software practices? Or maybe you are the only person working on research software in your group?
 
-If so, you might want to join us for RSA26, the new Research Software Africa (RSA26) conference, from the **25th to the 28th of August 2026**. The theme for this year is still to be announced and the hashtag will be #RSA26.
+If so, you might want to join us for RSAfrica26, the new Research Software(RS)conference, from the **25th to the 28th of August 2026**. The theme for this year is still to be announced, and the hashtag will be #RSA26.
 
 ## Working with Research Software Asia Australia, Research Software Latinoamérica, and Equersa
 
