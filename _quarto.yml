@@ -3,6 +3,8 @@ project:
   render:
     - index.qmd
     - registration.qmd
+    - call_for_presentations.qmd
+    - author_guidelines.qmd
   output-dir: _site
 
 
@@ -14,6 +16,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Call for presentations"
+        href: call_for_presentations.qmd
     right:
       - icon: github
         href: https://github.com/RSEAA/Research-Software-Africa

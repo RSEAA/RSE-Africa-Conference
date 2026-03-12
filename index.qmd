@@ -31,3 +31,42 @@ We are creating one joint organising committee, while co-chairs for each confere
 As part of this one joint organising committee, [we have created Equersa](https://rseaa.org/equersa/), an umbrella organisation to help coordinate the conferences and to provide a unified front to global funders and stakeholders. 
 
 More on RSA26, RSLA26, and Equersa soon!
+
+
+::: {style="margin-top: 3rem; padding: 2rem; background: #f8f8f8; border-radius: 8px;"}
+
+## Key Dates (Tentative)
+
+| Item | Open | Close |
+|------|------|-------|
+| Call for Presentations | 30th March | 1st May |
+| Call for Accessibility Fellows | 14th May | 26th June |
+| Notification of presentations | 7th July | — |
+| Call for Session chairs | ASAP | 7th August |
+| Call for Reviewers | ASAP | 15th May |
+| Micro-grants | 14th May | 10th July |
+| Scholarships | 14th May | 14th August |
+| Early Bird Registrations | 15th June | 10th July |
+| Standard Registrations | 11th July | 14th August |
+| Conference | 25th August | 28th August (depending on conference) |
+
+
+:::
+
+
+## Call for Presentations
+
+The Call for Presentations (CFP) for the Research Software Africa Conference 2026 (RSA26) will be announced soon. This year's theme, "Connecting with Community," focuses on fostering collaboration and engagement within the research software community.
+
+For more details, please refer to the [Call for Presentations](call_for_presentations.qmd) document when available.
+
+## Call for Workshops
+
+We invite proposals for workshops to be held on the first day of RSA26 (Tuesday, 25th August 2026), focusing on interactive, skills-focused sessions that engage participants in hands-on learning, tool development, or collaborative discussions within the research software community.
+
+### Author Guidelines
+
+Thank you for your interest in contributing to the Research Software Africa Conference 2026 (RSA26). To ensure a smooth submission and presentation experience, please follow the guidelines provided in the [Author Guidelines](author_guidelines.qmd) document.
+
+
+*The [Microsoft CMT service](https://cmt3.research.microsoft.com/) was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.*
